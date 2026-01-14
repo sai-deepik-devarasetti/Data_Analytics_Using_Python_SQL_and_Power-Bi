@@ -1,8 +1,10 @@
 import pandas as pd
 import sqlalchemy
 import psycopg2
+
 data = pd.read_csv('C:\python_data_analysis_project\Sources\customer_shopping_behavior.csv')
 # print(data.tail())
+
 data.columns = data.columns.str.lower()
 data.columns = data.columns.str.replace(" ","_")
 data.rename(columns={'purchase_amount_(usd)':'purchase_amount'},inplace=True)
