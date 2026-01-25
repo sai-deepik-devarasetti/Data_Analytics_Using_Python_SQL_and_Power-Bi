@@ -33,8 +33,8 @@ print(data.head())
 # Replace placeholders with your actual details
 from sqlalchemy import create_engine
 
-username = "postgres"      # default user
-password = "1234"      # the password you set during installation
+username = "**********"      # default user
+password = "**********"      # the password you set during installation
 host = "localhost"         # if running locally
 port = "5432"              # default PostgreSQL port
 database = "customer_behavior"  # the database you created in pgAdmin
