@@ -2,6 +2,7 @@ import pandas as pd
 import sqlalchemy
 import psycopg2
 
+#Importing Csv file 
 data = pd.read_csv('C:\python_data_analysis_project\Sources\customer_shopping_behavior.csv')
 # print(data.tail())
 
